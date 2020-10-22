@@ -1,5 +1,5 @@
-import { bin, internal } from './utils/files';
+import eslintScript from './drivers/eslint/script';
 
 export default {
-  eslint: 'script'
+  eslint: eslintScript
 }

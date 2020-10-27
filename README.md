@@ -1,4 +1,4 @@
-# Bundler
+# Linter
 
 An API wall between third-party code linters and Tirette's main projects.
 

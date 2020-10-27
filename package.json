@@ -1,9 +1,9 @@
 {
-  "name": "linter",
+  "name": "@tirette/linter",
   "version": "1.0.0",
   "description": "Lints all the files in the given directory.",
   "main": "./src/index.js",
-  "repository": "https://github.com/tirette/linter.git",
+  "repository": "git://github.com/tirette/linter.git",
   "author": "Luïs De Zutter <luzedz@gmail.com>",
   "license": "MIT",
   "private": false,

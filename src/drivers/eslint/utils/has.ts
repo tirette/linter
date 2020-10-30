@@ -1,4 +1,4 @@
-import { entry } from '../../../arguments';
+import { entry } from '../../../utils/arguments';
 import { local } from '../../../utils/files';
 import getExtensions from './getExtensions';
 import getFiles from './getFiles';

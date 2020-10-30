@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import execute from './utils/execute';
+import { execute } from '@tirette/cli-core';
 import scripts from './scripts';
 
 const driver = 'eslint';

@@ -1,4 +1,4 @@
-import { entry } from '../../arguments';
+import { entry } from '../../utils/arguments';
 import { local, bin, internal } from '../../utils/files';
 import { hasTypescript, hasReact } from './utils/has';
 

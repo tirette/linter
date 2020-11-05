@@ -18,4 +18,4 @@ To keep Tirette's code bases as future proof as possible we reduce mentions of t
 
 ## Usage
 
-* `tirette-linter [directory]` - Lint every file in the given directory recursively.
+* `npm run lint [directory]` - Lint every file in the given directory recursively.

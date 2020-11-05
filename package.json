@@ -1,14 +1,14 @@
 {
   "name": "@tirette/linter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lints all the files in the given directory.",
-  "main": "./src/index.js",
+  "main": "./lib-cjs/index.js",
   "repository": "git://github.com/tirette/linter.git",
   "author": "Luïs De Zutter <luzedz@gmail.com>",
   "license": "MIT",
   "private": false,
   "bin": {
-    "tirette-linter": "./dist/src/index.js"
+    "lint": "./lib-cjs/index.js"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -17,17 +17,16 @@
     "./dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && tsc -m es6 --outDir lib-esm"
   },
   "devDependencies": {
-    "@types/configstore": "^4.0.0",
     "@types/eslint": "^7.2.4",
-    "@types/minimist": "^1.2.0",
     "@types/node": "^14.14.5",
     "typescript": "^4.0.3"
   },
   "dependencies": {
     "@tirette/cli-core": "^1.0.1",
+    "@tirette/utilities": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
     "eslint": "^7.11.0",

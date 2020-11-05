@@ -1,5 +1,6 @@
+import { bin, local } from '@tirette/utilities/lib-cjs';
 import { entry } from '../../utils/arguments';
-import { local, bin, internal } from '../../utils/files';
+import internal from '../../utils/internal';
 import { hasTypescript, hasReact } from './utils/has';
 
 const eslintExtensions = [

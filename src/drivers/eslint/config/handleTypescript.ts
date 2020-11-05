@@ -1,4 +1,4 @@
-import { internal } from '../../../utils/files';
+import internal from '../../../utils/internal';
 
 const base = {
   settings: {

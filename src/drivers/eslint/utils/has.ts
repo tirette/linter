@@ -1,5 +1,5 @@
 import { entry } from '../../../utils/arguments';
-import { local } from '../../../utils/files';
+import { local } from '@tirette/utilities/lib-cjs';
 import getExtensions from './getExtensions';
 import getFiles from './getFiles';
 

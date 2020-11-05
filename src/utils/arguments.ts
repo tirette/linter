@@ -1,5 +1,5 @@
 import { command, storeArgs, readArgs } from '@tirette/cli-core';
-import { internal } from './files';
+import internal from './internal';
 import fs from 'fs';
 
 const pkg = JSON.parse(fs.readFileSync(internal('../package.json')).toString());

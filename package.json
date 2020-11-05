@@ -1,6 +1,6 @@
 {
   "name": "@tirette/linter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lints all the files in the given directory.",
   "main": "./lib-cjs/index.js",
   "repository": "git://github.com/tirette/linter.git",
@@ -14,7 +14,8 @@
     "registry": "https://npm.pkg.github.com"
   },
   "files": [
-    "./dist"
+    "./lib-esm",
+    "./lib-cjs"
   ],
   "scripts": {
     "build": "tsc && tsc -m es6 --outDir lib-esm"

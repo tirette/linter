@@ -1,6 +1,6 @@
 {
   "name": "@tirette/linter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lints all the files in the given directory.",
   "main": "./lib-cjs/index.js",
   "repository": "git://github.com/tirette/linter.git",
@@ -28,8 +28,8 @@
   "dependencies": {
     "@tirette/cli-core": "^1.0.2",
     "@tirette/utilities": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^2.10.0",
-    "@typescript-eslint/parser": "^2.10.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.11.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-import-resolver-typescript": "^2.3.0",
